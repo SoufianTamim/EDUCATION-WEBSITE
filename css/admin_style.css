@@ -1,0 +1,85 @@
+/* admin dashboard style */
+.dashboard .box-container {
+ grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+}
+.dashboard .box-container .box {
+ padding: 2rem;
+ border-radius: 0.5rem;
+ background-color: var(--white);
+ text-align: center;
+}
+.dashboard .box-container .box h3 {
+ font-size: 2.2rem;
+ color: var(--black);
+ margin-bottom: 1rem;
+}
+.dashboard .box-container .box p {
+ background-color: var(--light-bg);
+ font-size: 1.7rem;
+ padding: 1rem;
+ width: 100%;
+}
+/* admin playlists style */
+.add-item .form {
+ width: 100% !important;
+ padding: 2rem;
+ background-color: var(--white);
+}
+.add-item .form .form-flex {
+ align-items: flex-start;
+}
+.add-item .form .input-box {
+ margin-top: 0.5rem;
+ margin-bottom: 2rem;
+}
+.add-item .form .btn {
+ margin-top: 0;
+}
+.admin-playlist .box-container .box p {
+ font-size: 1.7rem;
+ color: var(--light-color);
+ margin: 0.5rem 0;
+}
+.flex-between {
+ margin-bottom: 1.2rem;
+ margin-top: 0;
+ font-size: 1.7rem;
+ color: var(--main-color);
+}
+.flex-between span i {
+ color: var(--main-color);
+}
+.flex-between span.status i {
+ color: white !important;
+ width: 2rem;
+ height: 2rem;
+ line-height: 2rem;
+ border-radius: 50%;
+ font-size: 1rem;
+ text-align: center;
+}
+.admin-playlist .box-container .box .flex-btn .btn {
+ width: 50%;
+}
+/* video-info */
+.video-info p {
+ font-size: 1.8rem;
+ color: var(--light-color);
+ margin-bottom: 1rem;
+}
+/*  
+*/
+.comment-container .comment-box .flex {
+ margin: 0.5rem !important;
+}
+.comment-container .comment-box .comment-text {
+ margin-bottom: 3.5rem;
+ margin-top: 1.5rem;
+}
+
+.alt-img {
+ width: 5rem;
+ height: 5rem;
+ margin: 0;
+ font-size: 3rem;
+}
